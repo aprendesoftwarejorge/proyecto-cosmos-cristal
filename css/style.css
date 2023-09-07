@@ -168,8 +168,28 @@ body{
     background-color: #f261aa !important;
 }
 
-/* seccion protector */
-#protector .titulo{
+/* seccion cuarzos */
+#cuarzos .titulo{
     width: 100%;
+    text-align: center;
+}
+/* seccion manillas  */
+#manillas  .titulo{
+    width: 30%;
+    text-align: center;
+}
+/* seccion velas  */
+#velas  .titulo{
+    width: 30%;
+    text-align: center;
+}
+/* seccion esencias  */
+#esencias  .titulo{
+    width: 30%;
+    text-align: center;
+}
+/* seccion piedras  */
+#piedras  .titulo{
+    width: 30%;
     text-align: center;
 }
