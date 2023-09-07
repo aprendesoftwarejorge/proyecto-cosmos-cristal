@@ -174,22 +174,22 @@ body{
     text-align: center;
 }
 /* seccion manillas  */
-#manillas  .titulo{
-    width: 30%;
+#manillas .titulo{
+    width: 100%;
     text-align: center;
 }
 /* seccion velas  */
-#velas  .titulo{
-    width: 30%;
+#velas .titulo{
+    width: 100%;
     text-align: center;
 }
 /* seccion esencias  */
-#esencias  .titulo{
-    width: 30%;
+#esencias .titulo{
+    width: 100%;
     text-align: center;
 }
 /* seccion piedras  */
 #piedras  .titulo{
-    width: 30%;
+    width: 100%;
     text-align: center;
 }
