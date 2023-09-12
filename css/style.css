@@ -4,16 +4,16 @@
 }
 
 #menu{
-    background-color: hsl(315, 46%, 69%) !important;
+    background-color: hwb(324 76% 2%) !important;
 }
 
 .nav-link{
-    color: #fff;
+    color: hsl(0, 0%, 0%);
     font-weight: bold;
 
 }
 .nav-link .active{
-    color: #fff !important; 
+    color: rgb(255, 255, 255) !important; 
 }
 
 /* dimensionar las images del carousel */
@@ -23,7 +23,7 @@
 
 /* Novedades */
 #novedades{
-    background-color:hsl(327, 74%, 62%) !important;
+    background-color:rgb(247, 176, 253) !important;
 
 
 }
@@ -41,11 +41,15 @@
 #videos .titulo{
     width: 100%;
     text-align: center;
-
+    background-color: rgb(247, 176, 253) ;
 }
 
-#videos{
-background-color: #f261aa ;
+
+/* video */
+#videos {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(247, 176, 253) ;
 }
 
 body{
@@ -55,11 +59,11 @@ body{
 
 /* footer */
 #page-footer{
-    background-color: rgb(255, 178, 223) ;
+    background-color: #eba5fb ;
 }
 
 #page-footer a{
-    color: #fff;
+    color: hwb(0 100% 0%);
 }
 
 #page-footer .ftcontainer{
@@ -99,7 +103,7 @@ body{
 }
 
 .ft-social{
-    color: #fff;
+    color: hsl(290, 100%, 99%);
     border-radius: 100%;
     height: auto;
     width: 50px;
@@ -128,20 +132,20 @@ body{
 }
 
 .footer__link:nth-child(1){
-    border-left: 2px solid #f3d707;
+    border-left: 2px solid hsl(285, 100%, 84%);
 }
 .footer__link:nth-child(2){
-    border-left: 2px solid #12d608;
+    border-left: 2px solid hsl(201, 100%, 76%);
 }
 .footer__link:nth-child(3){
-    border-left: 2px solid #f36507;
+    border-left: 2px solid hsl(329, 100%, 83%);
 }
 
 .footer-credits{
     width: 100%;
     color: #fff;
     text-align: center;
-    background-color: #489aff;
+    background-color: hwb(292 76% 0%);
 }
 
 /* pagina contacto  */
@@ -165,31 +169,76 @@ body{
 }
 
 #Pago{
-    background-color: #f261aa !important;
+    background-color: hsl(330, 100%, 84%) !important;
+}
+/* seccion cuarzos */
+#cuarzos {
+    background-color:rgb(247, 176, 253) !important;
+
 }
 
 /* seccion cuarzos */
 #cuarzos .titulo{
     width: 100%;
     text-align: center;
+    background-color:rgb(247, 176, 253) !important;
+
 }
 /* seccion manillas  */
+#manillas{
+    background-color: rgb(247, 176, 253) !important;
+}
 #manillas .titulo{
     width: 100%;
     text-align: center;
+    background-color:rgb(247, 176, 253) !important;
+
 }
+
+/* seccion velas  */
+#velas{
+    background-color:rgb(247, 176, 253) !important;
+
+}
+
 /* seccion velas  */
 #velas .titulo{
     width: 100%;
     text-align: center;
+    background-color:rgb(247, 176, 253) !important;
+
+}
+/* seccion esencias  */
+#esencias{
+    background-color:rgb(247, 176, 253) !important;
+
 }
 /* seccion esencias  */
 #esencias .titulo{
     width: 100%;
     text-align: center;
+    background-color:rgb(247, 176, 253) !important;
+
 }
 /* seccion piedras  */
-#piedras  .titulo{
+#piedras{  
+    background-color:rgb(247, 176, 253) !important;
+
+}
+/* seccion piedras  */
+#piedras  .titulo{  
     width: 100%;
     text-align: center;
+    background-color:rgb(247, 176, 253) !important;
+
 }
+
+.btn-azulpastel{
+    background-color: #f7b0fd;
+    color: #000000 !important;
+}
+.btn-azulpastel:hover{
+    background-color: #f7b0fd;
+    color: #ffffff !important;
+}
+
